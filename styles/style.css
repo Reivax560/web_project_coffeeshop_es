@@ -21,7 +21,7 @@ body{
     max-height: 800px;
     position: relative;
     box-sizing: border-box;
-    background: #fff url("background_header.svg") no-repeat center/cover;
+    background: #fff url("../images/background_header.svg") no-repeat center/cover;
   }
 
 .logo{
@@ -51,10 +51,6 @@ body{
 .nav-link{
     text-decoration: none;
     color: #000;
-}
-
-.nav-link:hover{
-    color: #FF976B;
 }
 
 .header-title{
