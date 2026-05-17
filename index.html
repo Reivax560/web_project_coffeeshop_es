@@ -44,14 +44,35 @@
         </header>
         <main class="content content-background">
             <section class="reservation" id="reservation">
-              <div  class="form-container">
-                <h1 class="form-container__title">Reservar una mesa</h1>
+              <div class="form-container">
+                <h1 class="reservation__title">Reservar una mesa</h1>
+                    <form class="form" action="/procesar-formulario" method="POST">
 
+                        <label class="form__label" for="name">Nombre*</label>
+                        <input class="form__input" type="text" id="name" placeholder="Nombre" minlength="3" maxlength="24" required>
 
+                        <label class="form__label" for="Comensales">Númeo de Comensales*</label>
+                        <input class="form__input" type="number" id="Comensales" placeholder="Número de comensales" min="1" max="8" required>
+
+                        <label class="form__label" for="fecha">Fecha y Hora*</label>
+                        <input class="form__input" type="datetime-local" id="fecha"  min="1" max="8" required>
+
+                        <label class="form__label" for="correo">Tu correo electrónico*</label>
+                        <input class="form__input" type="email" id="correo" placeholder="email@email.com" required>
+
+                        <button class="form__button" type="submit">Reservar una mesa</button>
+
+                        <input class="form__checkbox" type="checkbox" id="agree" required>
+                        <label class="form__label" for="agree">Acepto los términos de uso</label>
+
+                    </form>
               </div>
             </section>
         </main>
         <footer class="footer" id="footer">
+          <div>
+
+          </div>
 
         </footer>
     </body>
