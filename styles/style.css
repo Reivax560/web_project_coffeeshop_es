@@ -13,6 +13,7 @@ body{
     margin: 0%;
 }
 
+/*HEADER --> Inicio de la primer sección del sitio web */
 .header {
     display: flex;
     flex-direction: column;
@@ -104,3 +105,14 @@ body{
     align-items: flex-end;
 }
 
+/*CONTENT -- Inicio de la sección media del sito web */
+.content-background{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 720px;
+    max-height: 800px;
+    position: relative;
+    box-sizing: border-box;
+    background: #FFD6C5 url("../images/background_reservation.svg") no-repeat center/cover;
+}
